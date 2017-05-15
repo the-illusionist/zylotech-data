@@ -16,8 +16,7 @@ Project is intended to execute a filter & aggregation on large datasets stored i
 1. sudo service mongod start (For Ubuntu) or brew services start mongodb (For Mac)
 2. cd "source_directory"
 3. npm install
-4. node insert_product.js
-5. node insert_transaction.js
+4. node insert.js
 6. "spark_directory"/bin/spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.0.0 main.py
 
 Once server is listening for requests:
